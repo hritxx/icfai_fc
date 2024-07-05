@@ -1,38 +1,68 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Baichung Bhutia",
+    "price": "28 Years",
+    "detail": "Midfielder",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Lionel Messi",
+    "price": "28 Years",
+    "detail": "Left back",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Christiano Ronaldo",
+    "price": "28 Years3",
+    "detail": "Right back",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Neymar Jr.",
+    "price": "28 Years",
+    "detail": "Right Winger",
     "image": "./r1.png"
   },
   {
     "name": "Asatti Garden City",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "Left Winger",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Citralan Puri Serang",
+    "price": "28 Years",
+    "detail": "Goalkeeper",
+    "image": "./r1.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Antonio Rudiger",
+    "price": "28 Years",
+    "detail": "Left back",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Reece James",
+    "price": "28 Years",
+    "detail": "Right back",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Kai Havertz",
+    "price": "28 Years",
+    "detail": "Right Winger",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Christian Pulisic",
+    "price": "28 Years",
+    "detail": "Left Winger",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Peter Cech",
+    "price": "28 Years",
+    "detail": "Goalkeeper",
+    "image": "./r1.png"
   }
 ]

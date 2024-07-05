@@ -26,10 +26,11 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#residencies">Residencies</a>
-            <a href="#value">Our Value</a>
+            <a href="#team">Team</a>
+            <a href="#about">Our Value</a>
             <a href="#contact-us">Contact Us</a>
-            <a href="#get-started">Get Started</a>
+            <a href="#get-started">Gallery</a>
+            <a href="#get-started">Recent News</a>
             <button className="button">
               <a href="mailto:zainkeepscode@gmail.com">Contact</a>
             </button>

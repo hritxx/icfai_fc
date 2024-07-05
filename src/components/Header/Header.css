@@ -2,12 +2,14 @@
   z-index: 99;
   position: sticky;
   top: 0;
+  background: #530024b3;
 }
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--secondary);
   justify-content: space-between;
+  background: #530024b3;
 }
 
 .h-menu {
