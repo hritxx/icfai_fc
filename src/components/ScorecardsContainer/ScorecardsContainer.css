@@ -1,0 +1,7 @@
+.scorecards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 16px; /* Space between cards */
+  padding: 50px;
+}

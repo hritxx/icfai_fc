@@ -75,6 +75,7 @@ a {
 .secondaryText {
   color: rgb(140 139 139);
   font-size: 0.9rem;
+  padding: 5px 0;
 }
 .orangeText {
   color: orange;
@@ -85,7 +86,7 @@ a {
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
-    max-width: 1280px;
+    max-width: 90%;
     margin: auto;
   }
 }

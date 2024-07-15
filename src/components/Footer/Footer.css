@@ -1,23 +1,39 @@
-.f-container{
-    justify-content: space-between;
+.f-container {
+  justify-content: space-between;
+  background-color: rgba(255, 39, 39, 0.208);
 }
-.f-left{
-    gap: 1rem;
+.inner-container2 {
+  gap: 1.5rem;
+  background: #df4161;
+
+  text-align: center;
 }
-.f-menu{
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-    font-weight: 500;
+.f-left {
+  gap: 1rem;
+}
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+.social-icon {
+  width: 40px; /* Adjust the size of the icons as needed */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Add a hover effect if desired */
 }
 @media (max-width: 768px) {
-    .f-container{
-        justify-content: center;
-    }
-    .f-container>div{
-        align-items: center!important;
-        text-align: center;
-    }
-    .f-right{
-        justify-content: center;
-    }
+  .f-container {
+    justify-content: center;
+  }
+  .f-container > div {
+    align-items: center !important;
+    text-align: center;
+  }
+  .f-right {
+    justify-content: center;
+  }
 }

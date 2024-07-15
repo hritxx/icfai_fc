@@ -2,18 +2,19 @@ import React, { useRef } from "react";
 import "./Fixtures.css";
 import nextbtn from "/next-btn.png";
 import backbtn from "/back-btn.png";
-import logo2 from "/logo.png";
+import Scorecard from "../Scorecard/Scorecard";
 
-const Fixtures = () => {
+const Fixtures = ({ matches }) => {
   const slider = useRef();
   let tx = 0;
 
   const slideForward = () => {
-    if (tx > -50) {
+    if (tx > -((matches.length - 1) * 25)) {
       tx -= 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
+
   const slideBackward = () => {
     if (tx < 0) {
       tx += 25;
@@ -22,76 +23,28 @@ const Fixtures = () => {
   };
 
   return (
-    <div className="fixtures">
-      <img src={nextbtn} alt="" className="next-btn" onClick={slideForward} />
-      <img src={backbtn} alt="" className="back-btn" onClick={slideBackward} />
-
+    <div className="paddings innerWidth flexCenter ">
+      <img
+        src={nextbtn}
+        alt="Next"
+        className="next-btn"
+        onClick={slideForward}
+      />
+      <img
+        src={backbtn}
+        alt="Back"
+        className="back-btn"
+        onClick={slideBackward}
+      />
       <div className="slider">
         <ul ref={slider}>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={logo2} alt="" />
-                <div>
-                  <h3>Rahul Roy</h3>
-                  <span>Teliamura</span>
-                </div>
+          {matches.map((match, index) => (
+            <li key={index}>
+              <div className="slide">
+                <Scorecard match={match} />
               </div>
-              <p>
-                The low recall rate in sports video is may be due to the short
-                shots that are missed between the sampled frames. In contrast,
-                the precision rates in this kind of videos are more than 90%.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={logo2} alt="" />
-                <div>
-                  <h3>Dibakar Roy</h3>
-                  <span>Kalyanpur</span>
-                </div>
-              </div>
-              <p>
-                The low recall rate in sports video is may be due to the short
-                shots that are missed between the sampled frames. In contrast,
-                the precision rates in this kind of videos are more than 90%.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={logo2} alt="" />
-                <div>
-                  <h3></h3>
-                  <span></span>
-                </div>
-              </div>
-              <p>
-                The low recall rate in sports video is may be due to the short
-                shots that are missed between the sampled frames. In contrast,
-                the precision rates in this kind of videos are more than 90%.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={logo2} alt="" />
-                <div>
-                  <h3></h3>
-                  <span></span>
-                </div>
-              </div>
-              <p>
-                The low recall rate in sports video is may be due to the short
-                shots that are missed between the sampled frames. In contrast,
-                the precision rates in this kind of videos are more than 90%.
-              </p>
-            </div>
-          </li>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

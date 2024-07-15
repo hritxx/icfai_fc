@@ -45,6 +45,14 @@
   scale: 1.1;
   box-shadow: var(--shadow);
 }
+.map-container {
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  height: 600px; /* Adjust the height as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
 
 .mode .button:hover {
   background: var(--blue-gradient);
@@ -60,16 +68,15 @@
     justify-content: center;
   }
 }
-@media (max-width: 1024px)
-{
-    .contactModes{
-        width: 100%;
-    }
-    .row{
-        flex-direction: column;
-        width: 100%;
-    }
-    .mode{
-        width: 100%;
-    }
+@media (max-width: 1024px) {
+  .contactModes {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mode {
+    width: 100%;
+  }
 }

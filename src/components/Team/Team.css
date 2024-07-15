@@ -2,8 +2,10 @@
   margin-top: 20px;
   gap: 2rem;
   position: relative;
-
-  background-color: skyblue;
+  overflow: hidden;
+  background-color: #530024b3;
+  height: 800px;
+  width: 5000px;
 }
 
 .r-head {
@@ -11,7 +13,7 @@
 }
 .r-card {
   gap: 0.6rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 10px;
   max-width: max-content;
   margin: auto;
@@ -19,8 +21,10 @@
 }
 
 .r-card > img {
-  width: 100%;
-  max-width: 15rem;
+  width: 400px;
+
+  height: 400px;
+  height: auto; /* Maintain aspect ratio */
 }
 .r-card > :nth-child(2) {
   font-size: 1.2rem;
@@ -35,14 +39,14 @@
 }
 
 .r-card:hover {
-  scale: 1.025;
+  transform: scale(1.025);
   cursor: pointer;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(0, 255, 8, 0.917) 217.91%
+    rgba(0, 255, 8, 0.917) 100%
   );
-  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
 }
 .swiper-horizontal {
   overflow: visible;
@@ -75,5 +79,10 @@
   }
   .r-buttons {
     position: initial;
+  }
+  .r-card > img {
+    width: 10px;
+
+    height: 10px;
   }
 }

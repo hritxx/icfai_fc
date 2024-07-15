@@ -1,17 +1,58 @@
-export const fixtures = [
+export const matchesData = [
   {
-    date: "2022-07-05",
-    homeTeam: { name: "Team A", logo: "/logo2.png" },
-    awayTeam: { name: "Team B", logo: "/logo2.png" },
-    score: "2-1",
-    venue: "Stadium A",
+    team1: {
+      name: "Team A",
+      logo: "logo.png",
+      score: 2,
+    },
+    team2: {
+      name: "Team B",
+      logo: "chelsea.png",
+      score: 1,
+    },
+    date: "July 9, 2024",
+    venue: "Stadium XYZ",
   },
   {
-    date: "2022-07-10",
-    homeTeam: { name: "Team C", logo: "/logo2.png" },
-    awayTeam: { name: "Team D", logo: "/logo2.png" },
-    score: "1-2",
-    venue: "Stadium B",
+    team1: {
+      name: "Team C",
+      logo: "logo.png",
+      score: 3,
+    },
+    team2: {
+      name: "Team D",
+      logo: "chelsea.png",
+      score: 2,
+    },
+    date: "July 10, 2024",
+    venue: "Stadium ABC",
   },
-  // ...
+  {
+    team1: {
+      name: "Team E",
+      logo: "https://via.placeholder.com/100",
+      score: 0,
+    },
+    team2: {
+      name: "Team F",
+      logo: "https://via.placeholder.com/100",
+      score: 4,
+    },
+    date: "July 11, 2024",
+    venue: "Stadium DEF",
+  },
+  {
+    team1: {
+      name: "Team A",
+      logo: "logo.png",
+      score: 2,
+    },
+    team2: {
+      name: "Team B",
+      logo: "logo.png",
+      score: 1,
+    },
+    date: "July 9, 2024",
+    venue: "Stadium XYZ",
+  },
 ];

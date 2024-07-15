@@ -1,9 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import twitterLogo from "/icons/i2.jpg";
+import instaLogo from "/icons/insta.avif";
+import fbLogo from "/icons/i3.png";
+
 const Footer = () => {
   return (
     <div className="f-wrapper">
-      <div className="paddings innerWidth flexCenter f-container">
+      <div className="paddings f-container flexCenter inner-container2">
         {/* left side */}
         <div className="flexColStart f-left">
           <img src="./logo.png" alt="" width={120} />
@@ -14,13 +18,33 @@ const Footer = () => {
         </div>
 
         <div className="flexColStart f-right">
-          <span className="primaryText">Information</span>
-          <span className="secondaryText">145 New York, FL 5467, USA</span>
+          <span className="primaryText">Campus Address</span>
+          <span className="secondaryText">
+            ICFAI University, Tripura Kamalghat, Mohanpur, West Tripura -
+            799210, India.
+          </span>
           <div className="flexCenter f-menu">
-            <span>Team</span>
-            <span>Contact</span>
-            <span>Product</span>
-            <span>About Us</span>
+            <a
+              href="https://www.facebook.com/icfaifc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={fbLogo} alt="Facebook" className="social-icon" />
+            </a>
+            <a
+              href="https://www.instagram.com/icfai_fc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instaLogo} alt="Instagram" className="social-icon" />
+            </a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={twitterLogo} alt="Twitter" className="social-icon" />
+            </a>
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
 import React from "react";
-import data from "../../utils/slider.json";
+
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "./Team.css";
 import { sliderSettings } from "../../utils/common";
-const Team = ({ role }) => {
+const Team = ({ data, role }) => {
   return (
-    <div className="r-wrapper">
-      <div className="paddings innerWidth r-container">
+    <div className="r-wrapper ">
+      <div className="paddings innerWidth r-container ">
         <div className="flexColStart r-head">
           <span className="orangeText">Squad</span>
           <span className="primaryText">{role}</span>

@@ -1,0 +1,39 @@
+.s-container {
+  border-radius: 10px;
+}
+.teams-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+  margin: 10px;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.score {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.match-info {
+  position: relative;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}

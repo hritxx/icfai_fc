@@ -79,8 +79,16 @@ const Contact = () => {
 
         {/* right side */}
         <div className="flexEnd c-right">
-          <div className="image-container">
-            <img src="./contact.png" alt="" />
+          <div className="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14586.95488032328!2d91.3385179!3d23.9343045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753f40b1e17beef%3A0x968fbf25214edf8d!2sICFAI%20University%20Tripura!5e0!3m2!1sen!2sin!4v1720774544422!5m2!1sen!2sin"
+              width="800"
+              height="600"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>

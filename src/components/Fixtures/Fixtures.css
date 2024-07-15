@@ -2,7 +2,11 @@
   margin: 80px auto;
   padding: 0 80px;
   position: relative;
+  overflow: hidden;
+  height: 400px;
+  align-items: center;
 }
+
 .next-btn,
 .back-btn {
   position: absolute;
@@ -36,16 +40,16 @@
 }
 .slide {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  padding: 40px;
+  padding: 10px;
   border-radius: 10px;
   color: #676767;
   line-height: 1.4;
 }
 .slide img {
-  width: 65px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+
   margin-right: 10px;
-  border: 4px solid #212ea0;
 }
 .user-info {
   display: flex;
@@ -55,4 +59,15 @@
 }
 .user-info h3 {
   color: #212ea0;
+}
+
+.slider ul li:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 255, 8, 0.917) 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
 }

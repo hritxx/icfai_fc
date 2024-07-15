@@ -14,6 +14,10 @@ import Gallery from "./components/Gallery/Gallery";
 import Fixtures from "./components/Fixtures/FIxtures";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import { useState } from "react";
+import { newsData } from "./utils/NewsData";
+import { matchesData } from "./utils/fixtures";
+import News from "./components/News/News";
+import { players, coaches } from "./utils/slider";
 
 function App() {
   const [playState, setPlayState] = useState(false);
@@ -26,27 +30,32 @@ function App() {
         <Hero2 />
       </div>
 
-      <Title subTitle="Our Values" title="About Us" />
+      <Title subTitle="Our Values" title="About Us" iddd="about-us" />
       <About setPlayState={setPlayState} />
+
       <Title subTitle="OUR FIRST TEAM" title="SQUAD" iddd="team" />
-      <Team role="The First Team" />
-      <Team role="The Coaching Staff" />
-      <Title subTitle="Our Club" title="Gallery" />
+      <Team data={players} role="The First Team" />
+      <Team data={coaches} role="The Coaching Staff" />
+
+      <Title subTitle="Fixtures" title="Recent Matches" iddd="fixtures" />
+      <Fixtures matches={matchesData} />
+
+      <Title
+        subTitle="Recent News "
+        title="Recent News And Updates"
+        iddd="recent-news"
+      />
+      <News news={newsData} />
+
+      <Title subTitle="Our Club" title="Gallery" iddd="gallery" />
       <Gallery />
 
-      <Title subTitle="Our Club" title="Gallery" />
-
-      <Fixtures />
-
-      <Title subTitle="Our Sponsers" title="Companies" />
+      <Title subTitle="Our Sponsers" title="Companies" iddd="companies" />
       <Companies />
-      <Title
-        subTitle="Contact Us"
-        title="Our Contact Us
-"
-      />
 
+      <Title subTitle="Connect With Us" title="Our Contact" iddd="contact-us" />
       <Contact />
+
       <Footer />
       <GetStarted />
       <VideoPlayer playState={playState} setPlayState={setPlayState} />
