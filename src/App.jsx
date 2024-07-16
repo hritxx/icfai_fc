@@ -50,10 +50,10 @@ function App() {
       <Title subTitle="Our Club" title="Gallery" iddd="gallery" />
       <Gallery />
 
-      <Title subTitle="Our Sponsers" title="Companies" iddd="companies" />
+      <Title subTitle="Our Sponsers" iddd="companies" />
       <Companies />
 
-      <Title subTitle="Connect With Us" title="Our Contact" iddd="contact-us" />
+      <Title subTitle="Our Contact" title="Connect With Us" iddd="contact-us" />
       <Contact />
 
       <Footer />

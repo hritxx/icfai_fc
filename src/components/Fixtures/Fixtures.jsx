@@ -50,5 +50,4 @@ const Fixtures = ({ matches }) => {
     </div>
   );
 };
-
 export default Fixtures;

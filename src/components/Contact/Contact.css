@@ -24,6 +24,7 @@
   border-radius: 5px;
   gap: 1rem;
   transition: all 300ms ease-in;
+  background-color: rgb(153, 153, 153);
 }
 .mode .button {
   width: 100%;
