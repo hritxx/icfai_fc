@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import twitterLogo from "/icons/i2.jpg";
-import instaLogo from "/icons/insta.avif";
+import twitterLogo from "/icons/x.jpg";
+import instaLogo from "/icons/insta.png";
 import fbLogo from "/icons/i3.png";
 
 const Footer = () => {

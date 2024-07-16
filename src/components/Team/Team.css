@@ -4,38 +4,42 @@
   position: relative;
   overflow: hidden;
   background-color: #530024b3;
-  height: 800px;
-  width: 5000px;
+  width: 100%; /* Make container full width */
+  padding: 1rem; /* Add padding for better spacing */
 }
 
 .r-head {
   margin-bottom: 2rem;
+  text-align: center; /* Center text for smaller screens */
 }
+
 .r-card {
   gap: 0.6rem;
-  padding: 0.5rem;
+  padding: 1rem; /* Increase padding */
   border-radius: 10px;
-  max-width: max-content;
+  width: 100%; /* Make card full width */
+  max-width: 350px; /* Set max width for larger screens */
   margin: auto;
   transition: all 300ms ease-in;
 }
 
 .r-card > img {
-  width: 400px;
-
-  height: 400px;
+  width: 100%; /* Make image responsive */
   height: auto; /* Maintain aspect ratio */
 }
+
 .r-card > :nth-child(2) {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .r-card > :nth-child(3) {
   font-size: 1.5rem;
 }
+
 .r-card > :nth-child(4) {
   font-size: 0.7rem;
-  width: 15rem;
+  width: 100%; /* Make text full width */
 }
 
 .r-card:hover {
@@ -48,15 +52,18 @@
   );
   box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
 }
+
 .swiper-horizontal {
   overflow: visible;
 }
+
 .r-buttons {
   position: absolute;
   gap: 1rem;
   top: -4rem;
   right: 0;
 }
+
 .r-buttons button {
   font-size: 1.2rem;
   padding: 0.2rem 0.8rem;
@@ -66,9 +73,11 @@
   background-color: white;
   cursor: pointer;
 }
+
 .r-buttons > :nth-child(1) {
   background-color: #eeeeff;
 }
+
 .r-buttons > :nth-child(2) {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 }
@@ -77,12 +86,26 @@
   .r-head {
     align-items: center;
   }
+
   .r-buttons {
     position: initial;
+    margin-top: 1rem; /* Add margin for spacing */
+    display: flex;
+    justify-content: center; /* Center buttons */
   }
-  .r-card > img {
-    width: 10px;
 
-    height: 10px;
+  .r-card {
+    padding: 1rem; /* Add padding */
+    width: 50%; /* Make card full width */
+  }
+
+  .r-card > img {
+    width: 200px; /* Adjust image size for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    align-items: center;
+  }
+
+  .r-card > :nth-child(4) {
+    width: 100px; /* Make text full width */
   }
 }

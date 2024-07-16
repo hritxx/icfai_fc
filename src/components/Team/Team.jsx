@@ -7,8 +7,8 @@ import "./Team.css";
 import { sliderSettings } from "../../utils/common";
 const Team = ({ data, role }) => {
   return (
-    <div className="r-wrapper ">
-      <div className="paddings innerWidth r-container ">
+    <div className="r-wrapper">
+      <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
           <span className="orangeText">Squad</span>
           <span className="primaryText">{role}</span>
