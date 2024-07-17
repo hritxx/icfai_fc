@@ -9,19 +9,19 @@ export const players = [
     name: "Lionel Messi",
     price: "28 Years",
     detail: "Left back",
-    image: "./Players/messi.png",
+    image: "./Players/neymar.png",
   },
   {
     name: "Christiano Ronaldo",
     price: "28 Years3",
     detail: "Right back",
-    image: "./Players/messi.png",
+    image: "./Players/ronaldo.png",
   },
   {
     name: "Neymar Jr.",
     price: "28 Years",
     detail: "Right Winger",
-    image: "./Players/ronaldo.png",
+    image: "./Players/mbappe.png",
   },
   {
     name: "Asatti Garden City",
@@ -33,7 +33,7 @@ export const players = [
     name: "Citralan Puri Serang",
     price: "28 Years",
     detail: "Goalkeeper",
-    image: "./Players/ronaldo.png",
+    image: "./Players/mbappe.png",
   },
   {
     name: "Antonio Rudiger",
@@ -51,7 +51,7 @@ export const players = [
     name: "Kai Havertz",
     price: "28 Years",
     detail: "Right Winger",
-    image: "./Players/ronaldo.png",
+    image: "./Players/messi.png",
   },
   {
     name: "Christian Pulisic",
@@ -83,6 +83,6 @@ export const coaches = [
     name: "Christiano Ronaldo",
     price: "28 Years3",
     detail: "Right back",
-    image: "./Players/messi.png",
+    image: "./Players/neymar.png",
   },
 ];

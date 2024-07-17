@@ -11,7 +11,7 @@ import Hero2 from "./components/Hero2/Hero2";
 import Title from "./components/Title/Title";
 import About from "./components/AboutUs/About";
 import Gallery from "./components/Gallery/Gallery";
-import Fixtures from "./components/Fixtures/FIxtures";
+import Fixtures from "./components/Fixtures/Fixtures";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 import { useState } from "react";
 import { newsData } from "./utils/NewsData";
