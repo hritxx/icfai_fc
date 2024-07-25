@@ -2,12 +2,12 @@ export const matchesData = [
   {
     team1: {
       name: "Team A",
-      logo: "logo.png",
+      logo: "/logo.png",
       score: 2,
     },
     team2: {
       name: "Team B",
-      logo: "chelsea.png",
+      logo: "/chelsea.png",
       score: 1,
     },
     date: "July 9, 2024",
@@ -16,12 +16,12 @@ export const matchesData = [
   {
     team1: {
       name: "Team C",
-      logo: "logo.png",
+      logo: "/chelsea.png",
       score: 3,
     },
     team2: {
       name: "Team D",
-      logo: "ManUtd.png",
+      logo: "/ManUtd.png",
       score: 2,
     },
     date: "July 10, 2024",
@@ -44,12 +44,12 @@ export const matchesData = [
   {
     team1: {
       name: "Team A",
-      logo: "logo.png",
+      logo: "/logo.png",
       score: 2,
     },
     team2: {
       name: "Team B",
-      logo: "logo.png",
+      logo: "/logo.png",
       score: 1,
     },
     date: "July 9, 2024",

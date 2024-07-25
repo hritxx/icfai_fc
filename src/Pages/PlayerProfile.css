@@ -1,0 +1,92 @@
+.player-profile-container {
+  display: flex;
+  flex-direction: column; /* Default to column layout on small screens */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Medium screens and up */
+@media (min-width: 768px) {
+  .player-profile-container {
+    flex-direction: row; /* Change to row layout on larger screens */
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+  .player-card,
+  .player-details-card {
+    flex: 1; /* This makes both cards flexible and of equal height */
+  }
+
+  .player-card {
+    position: relative;
+    flex: 0 0 35%; /* Fixed size for the card on larger screens */
+    max-width: 300px; /* You can set a max-width if needed */
+  }
+
+  .player-details-card {
+    flex: 0 0 65%; /* Adjust to fit the remaining space */
+  }
+}
+
+.jersey-number {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: rgba(94, 86, 86, 0.808);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.player-card,
+.player-details-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%; /* Ensure it does not overflow its container */
+}
+
+.player-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.player-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.player-price,
+.player-detail {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.player-stats {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  display: flex;
+}
+.icons {
+  margin-left: 15px;
+  margin-right: 20px;
+}
