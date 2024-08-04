@@ -1,17 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
-import useHeaderColor from "../../hooks/useHeaderColor";
+
 import OutsideClickHandler from "react-outside-click-handler";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
-  const headerColor = useHeaderColor();
+
+  // Ensure the menu is closed when the component mounts or screen size changes
+  useEffect(() => {
+    const handleResize = () => {
+      setMenuOpened(false);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Close the menu on mount
+    setMenuOpened(false);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    <section className="h-wrapper" style={{ background: headerColor }}>
-      <div className="flexCenter innerWidth paddings h-container">
+    <section className="h-wrapper">
+      <div className="flexCenter   h-container inner-container2">
         {/* logo */}
         <a href="home">
           <img src="/logo.png" alt="logo" width={100} />
@@ -23,11 +38,7 @@ const Header = () => {
             setMenuOpened(false);
           }}
         >
-          <div
-            // ref={menuRef}
-            className="flexCenter h-menu"
-            style={getMenuStyles(menuOpened)}
-          >
+          <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <a href="#about-us">Our Values</a>
             <a href="#team">Team</a>
             <a href="#fixtures">Fixtures</a>
@@ -37,7 +48,7 @@ const Header = () => {
             <a href="#contact-us">Contact Us</a>
 
             <button className="button">
-              <a href="mailto:hriteekroy1869@gmail.com">Contact</a>
+              <a href="mailto:hriteekroy1869@gmail.com">Connect</a>
             </button>
           </div>
         </OutsideClickHandler>

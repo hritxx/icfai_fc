@@ -94,3 +94,5 @@ export const coaches = [
     image: "/Players/mbappe.png",
   },
 ];
+1920;
+950;

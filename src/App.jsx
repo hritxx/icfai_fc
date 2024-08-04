@@ -3,6 +3,7 @@ import "./App.css";
 import PlayerProfile from "./Pages/PlayerProfile";
 import Home from "./Pages/Home";
 import GetStarted from "./components/GetStarted/GetStarted";
+import Header from "./components/Header/Header";
 
 function App() {
   return (

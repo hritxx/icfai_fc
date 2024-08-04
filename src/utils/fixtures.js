@@ -21,7 +21,7 @@ export const matchesData = [
     },
     team2: {
       name: "Team D",
-      logo: "public/logo.png",
+      logo: "/logo.png",
       score: 2,
     },
     date: "July 10, 2024",

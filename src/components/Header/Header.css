@@ -1,15 +1,18 @@
 .h-wrapper {
-  z-index: 99;
+  z-index: 1000;
+  position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
-  background: #530024b3;
 }
-.h-container {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: var(--secondary);
+
+.inner-container2 {
+  background: #8d031f;
   justify-content: space-between;
-  background: #530024b3;
+  width: 100%;
+  font: 1.2em sans-serif;
+  height: fit-content;
+  padding: 10px;
+  padding-left: 60px;
 }
 
 .h-menu {
