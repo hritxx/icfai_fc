@@ -1,16 +1,15 @@
 import React from "react";
 import "../App.css";
+import { FaFlagCheckered } from "react-icons/fa";
+import { GiSoccerBall } from "react-icons/gi";
+
 import { useParams } from "react-router-dom";
 import { players } from "../utils/slider";
 import "./PlayerProfile.css"; // Ensure you create this CSS file
-import Header from "../components/Header/Header";
-import Fixtures from "../components/Fixtures/Fixtures";
-import { matchesData } from "../utils/fixtures";
+
 import CountUp from "react-countup";
-import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
-import FlagIcon from "@mui/icons-material/Flag";
+
 import Title from "../components/Title/Title";
-import GetStarted from "../components/GetStarted/GetStarted";
 
 const PlayerProfile = () => {
   const { playerName } = useParams();
@@ -41,11 +40,13 @@ const PlayerProfile = () => {
           <p className="player-price">2023-24</p>
           <h1 className="player-name">Stats:</h1>
           <span className="player-stats">
-            <FlagIcon className="icons" />
+            <FaFlagCheckered className="icons" />
+
             <CountUp start={35} end={50} duration={4} />
             {" + Matches"}
 
-            <SportsSoccerIcon className="icons" />
+            <GiSoccerBall className="icons" />
+
             <CountUp start={5} end={17} duration={4} />
             {" + Goals"}
           </span>

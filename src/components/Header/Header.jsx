@@ -28,9 +28,8 @@ const Header = () => {
     <section className="h-wrapper">
       <div className="flexCenter   h-container inner-container2">
         {/* logo */}
-        <a href="home">
-          <img src="/logo.png" alt="logo" width={100} />
-        </a>
+
+        <img src="logo2.png" alt="logo" width={100} />
 
         {/* menu */}
         <OutsideClickHandler
