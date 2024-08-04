@@ -4,7 +4,7 @@ import { FaFlagCheckered } from "react-icons/fa";
 import { GiSoccerBall } from "react-icons/gi";
 
 import { useParams } from "react-router-dom";
-import { players } from "../utils/slider";
+import { players, coaches } from "../utils/slider";
 import "./PlayerProfile.css"; // Ensure you create this CSS file
 
 import CountUp from "react-countup";
