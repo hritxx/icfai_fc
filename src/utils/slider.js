@@ -3,42 +3,42 @@ export const players = [
     name: "Baichung Bhutia",
     price: "28 Years",
     detail: "Midfielder",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
     name: "Lionel Messi",
     price: "28 Years",
     detail: "Left back",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
     name: "Christiano Ronaldo",
     price: "28 Years",
     detail: "Right back",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
     name: "Neymar Jr.",
     price: "28 Years",
     detail: "Right Winger",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
     name: "Asatti Garden City",
     price: "66,353",
     detail: "Left Winger",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
     name: "Citralan Puri Serang",
     price: "28 Years",
     detail: "Goalkeeper",
-    image: "./Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
     jerseyNumber: "10",
   },
   {
@@ -52,7 +52,7 @@ export const players = [
     name: "Reece James",
     price: "28 Years",
     detail: "Right back",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
   },
   {
     name: "Kai Havertz",
@@ -79,19 +79,19 @@ export const coaches = [
     name: "Baichung Bhutia",
     price: "28 Years",
     detail: "Midfielder",
-    image: "./Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
   },
   {
     name: "Lionel Messi",
     price: "28 Years",
     detail: "Left back",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
   },
   {
     name: "Christiano Ronaldo",
     price: "28 Years3",
     detail: "Right back",
-    image: "../Players/mbappe.jpg",
+    image: "/Players/mbappe.jpg", // Updated path
   },
 ];
 1920;
