@@ -63,9 +63,5 @@
 .slider ul li:hover {
   scale: 1.025;
   cursor: pointer;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 255, 8, 0.917) 217.91%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #c111c1);
 }

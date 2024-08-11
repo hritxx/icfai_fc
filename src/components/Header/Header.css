@@ -6,7 +6,7 @@
 }
 
 .inner-container2 {
-  background: #c111c1;
+  background: #9f0000;
   justify-content: space-between;
   width: 100%;
   font: 1.2em sans-serif;
@@ -20,6 +20,7 @@
 }
 .h-menu > *:hover {
   cursor: pointer;
+  color: #ffffff;
 }
 .menu-icon {
   display: none;

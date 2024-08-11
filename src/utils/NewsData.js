@@ -17,4 +17,16 @@ export const newsData = [
     description:
       "ICFAI University Tripura's football team, ICFAI FC, has achieved an extraordinary feat with a commanding 15-0 win against Amra Kajana! Featured in media outlets including Danik Sambad, Pratibadi Kalam, Ajker Fariyad, Deser Katha, Janatar Vasha, and Jagaran",
   },
+  {
+    image: "news/news5.jpg",
+    title: "News Title 3",
+    description:
+      "ICFAI University Tripura's football team, ICFAI FC, has achieved an extraordinary feat with a commanding 15-0 win against Amra Kajana! Featured in media outlets including Danik Sambad, Pratibadi Kalam, Ajker Fariyad, Deser Katha, Janatar Vasha, and Jagaran",
+  },
+  {
+    image: "news/news5.jpg",
+    title: "News Title 3",
+    description:
+      "ICFAI University Tripura's football team, ICFAI FC, has achieved an extraordinary feat with a commanding 15-0 win against Amra Kajana! Featured in media outlets including Danik Sambad, Pratibadi Kalam, Ajker Fariyad, Deser Katha, Janatar Vasha, and Jagaran",
+  },
 ];

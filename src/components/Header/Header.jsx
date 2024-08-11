@@ -41,7 +41,7 @@ const Header = () => {
             <a href="#about-us">Our Values</a>
             <a href="#team">Team</a>
             <a href="#fixtures">Fixtures</a>
-            <a href="#companies">Companies</a>
+            <a href="#sponsers">Sponsers</a>
             <a href="#recent-news">Recent News</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact-us">Contact Us</a>
