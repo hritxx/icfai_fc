@@ -3,16 +3,15 @@ import "./App.css";
 import PlayerProfile from "./Pages/PlayerProfile";
 import Home from "./Pages/Home";
 import GetStarted from "./components/GetStarted/GetStarted";
-import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div>
       <Routes>
-        <Route path="/icfai_fc" element={<Home />} />
+        <Route exact path="/icfai_fc" Component={<Home />} />
         <Route
           path="/icfai_fc/playerProfile/:playerName"
-          element={<PlayerProfile />}
+          Component={<PlayerProfile />}
         />
       </Routes>
       <GetStarted />
