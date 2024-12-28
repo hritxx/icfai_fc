@@ -8,10 +8,10 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route exact path="/icfai_fc" Component={<Home />} />
+        <Route exact path="/icfai_fc" element={<Home />} />
         <Route
           path="/icfai_fc/playerProfile/:playerName"
-          Component={<PlayerProfile />}
+          element={<PlayerProfile />}
         />
       </Routes>
       <GetStarted />
