@@ -1,97 +1,118 @@
 export const players = [
   {
-    name: "Baichung Bhutia",
+    name: "Player 1",
     price: "28 Years",
     detail: "Midfielder",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Lionel Messi",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Left back",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Christiano Ronaldo",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Right back",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Neymar Jr.",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Right Winger",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Asatti Garden City",
-    price: "66,353",
-    detail: "Left Winger",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    name: "Player 1",
+    price: "28 Years",
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Citralan Puri Serang",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Goalkeeper",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Antonio Rudiger",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Left back",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
     jerseyNumber: "10",
   },
   {
-    name: "Reece James",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Right back",
-    image: "/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
   {
-    name: "Kai Havertz",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Right Winger",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
   {
-    name: "Christian Pulisic",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Left Winger",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
   {
-    name: "Peter Cech",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Goalkeeper",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
+  },
+  {
+    name: "Player 1",
+    price: "28 Years",
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
 ];
 
 export const coaches = [
   {
-    name: "Baichung Bhutia",
+    name: "Player 1",
     price: "28 Years",
     detail: "Midfielder",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
   {
-    name: "Lionel Messi",
+    name: "Player 1",
     price: "28 Years",
-    detail: "Left back",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
   {
-    name: "Christiano Ronaldo",
-    price: "28 Years3",
-    detail: "Right back",
-    image: "/icfai_fc/Players/mbappe.jpg", // Updated path
+    name: "Player 1",
+    price: "28 Years",
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
+  },
+  {
+    name: "Player 1",
+    price: "28 Years",
+    detail: "Midfielder",
+    image: "/icfai_fc/Players/player-placeholder.png", // Updated path
+    jerseyNumber: "10",
   },
 ];
 1920;

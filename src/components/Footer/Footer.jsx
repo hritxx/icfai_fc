@@ -11,10 +11,10 @@ const Footer = () => {
         {/* left side */}
         <div className="flexColStart f-left">
           <img src="/logo.png" alt="" width={120} />
-          <span className="secondaryText">
+          {/* <span className="secondaryText">
             Our vision is to make all people <br />
             the best place to live for them.
-          </span>
+          </span> */}
         </div>
 
         <div className="flexColStart f-right">
@@ -32,7 +32,7 @@ const Footer = () => {
               <img src={fbLogo} alt="Facebook" className="social-icon" />
             </a>
             <a
-              href="https://www.instagram.com/icfai_fc/"
+              href="https://www.instagram.com/icfai.fc/"
               target="_blank"
               rel="noopener noreferrer"
             >

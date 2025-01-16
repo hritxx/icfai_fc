@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91-8415952506</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call now</div>
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91-6909879797</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -51,24 +51,11 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
-                  </div>
-                  <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
-                  </div>
-                </div>
-                <div className="flexCenter button">Video Call now</div>
-              </div>
-
-              <div className="flexColCenter mode">
-                <div className="flexStart">
-                  <div className="flexCenter icon">
                     <HiChatBubbleBottomCenter size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91-6909879797</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Message now</div>

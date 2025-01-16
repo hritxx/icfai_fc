@@ -1,8 +1,7 @@
 .hero2 {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(84, 0, 36, 0.7), rgba(83, 0, 36, 0.7)),
-    url("/new-hero.png");
+  background: url("/new-hero.png");
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center; /* Centers the image in the section */
   background-repeat: no-repeat; /* Prevents the image from repeating */

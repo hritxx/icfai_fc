@@ -48,8 +48,8 @@ const Home = () => {
         <Title subTitle="Our Club" title="Gallery" iddd="gallery" />
         <Gallery />
 
-        <Title subTitle="Our Sponsers" iddd="sponsers" />
-        <Companies />
+        {/* <Title subTitle="Our Sponsers" iddd="sponsers" />
+        <Companies /> */}
 
         <Title
           subTitle="Our Contact"

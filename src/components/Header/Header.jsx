@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <section className="h-wrapper">
-      <div className="flexCenter   h-container inner-container2">
+      <div className="flexCenter h-container inner-container2">
         {/* logo */}
 
         <img src="logo2.png" alt="logo" width={100} />
@@ -38,7 +38,7 @@ const Header = () => {
           }}
         >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-            <a href="#about-us">Our Values</a>
+            <a href="#about-us">About Us</a>
             <a href="#team">Team</a>
             <a href="#fixtures">Fixtures</a>
             <a href="#sponsers">Sponsers</a>
@@ -47,7 +47,7 @@ const Header = () => {
             <a href="#contact-us">Contact Us</a>
 
             <button className="button">
-              <a href="mailto:hriteekroy1869@gmail.com">Connect</a>
+              <a href="mailto:admissions@iutripura.edu.in">Connect</a>
             </button>
           </div>
         </OutsideClickHandler>
